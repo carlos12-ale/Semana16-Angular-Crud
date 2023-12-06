@@ -1,10 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
-import { UsuarioModel } from 'src/app/modelos/usuario.model';
-import { UsuarioService } from 'src/app/servicios/usuario.service';
 import M from 'materialize-css/dist/js/materialize';
-
+import { UsuarioService } from 'src/app/servicios/usuario.service';
 @Component({
   selector: 'app-eliminar-usuario',
   templateUrl: './eliminar-usuario.component.html',
@@ -81,7 +79,7 @@ export class EliminarUsuarioComponent implements OnInit {
         next: (respuesta) => {
           alert('Usuario Eliminado Correctamentamente.');
           
-          this.router.navigate(['/parametros/usuario-listar']);
+          this.router.navigate(['/crud/usuario-listar']);
         },
         error: (err) => {
           alert('Se ha producido un error al eliminar el usuario.');
@@ -95,3 +93,4 @@ export class EliminarUsuarioComponent implements OnInit {
   }
 
 }
+
