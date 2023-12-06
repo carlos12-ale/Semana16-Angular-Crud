@@ -48,12 +48,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JonathanArroyaveGonzalez/Crud-Angular.git"
+    "url": "https://github.com/carlos12-ale/Semana16-Angular-Crud.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JonathanArroyaveGonzalez/Crud-Angular/issues"
+    "url": "https://github.com/carlos12-ale/Semana16-Angular-Crud.git"
   },
-  "homepage": "https://github.com/JonathanArroyaveGonzalez/Crud-Angular.git#readme"
+  "homepage": "https://github.com/carlos12-ale/Semana16-Angular-Crud.git"
 }
